@@ -13,9 +13,9 @@ spec:
           configMapKeyRef:
             name: game-demo
             key: player_initial_lives
-      - name: player_initial_lives
+      - name: ui_properties_file_name
         valueFrom:
           configMapKeyRef:
             name: game-demo
-            key: player_initial_lives          
+            key: ui_properties_file_name
             
